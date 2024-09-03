@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+    
+</head>
+<body>
+    <header>
+        <img src="images/playlist.svg" alt="playlist" id="playlist-img">
+        <h2>Feel the beat, live the moment</h2>
+        <img src="images/music-note.svg" alt="music" id="music-img">
+    </header>
+    <main>
+        <div class="left">
+            <div class="song-image">
+<img src="images/song-animate.webp" alt="animate" id="music-animate">
+            </div>
+            <div class="volume">
+                <div class="volume-img">
+                    <img src="images/volume.svg" alt="volume" id="vol-svg" onchange="volume()">
+                </div>
+                <input type="range" min="0" max="100" value="50" id="volume-range">
+            </div>
+
+        </div>
+        <div class="right">
+         <div class="details">
+            <h3 id="song-name">Cheri Cheri Lady</h3>
+            <h5 id="song-singer">Modern Talking</h5>
+         </div>   
+        <input type="range" id="song-duration" onchange="duration">
+
+        <div class="control">
+
+            <div class="prev">
+                <img src="images/previous.svg" alt="previous" id="previous-img" onclick="previousSong()">
+            </div>
+            
+            <div class="play-pause">
+                <img src="images/play.svg" alt="play" id="play-pause" onclick="playPause()">
+            </div>
+            
+            <div class="next">
+                <img src="images/next.svg" alt="next" id="next-img" onclick="nextSong()">
+            </div>
+            
+        </div>
+        <div class="playlist">
+            <div class="playlist-songs">
+                <img src="images/1.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Cheri Cheri Lady</h2>
+                    <h5>Modern Talking</h5>
+                </div>
+            </div>
+            <div class="playlist-songs">
+                <img src="images/2.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Espresso</h2>
+                    <h5>Sabrina Carpenter</h5>
+                </div>
+            </div>
+            <div class="playlist-songs">
+                <img src="images/3.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Favourite</h2>
+                    <h5>Isabel LaRosa</h5>
+                </div>
+            </div>
+            <div class="playlist-songs">
+                <img src="images/4.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Gasolina</h2>
+                    <h5>Daddy Yankee</h5>
+                </div>
+            </div>
+            <div class="playlist-songs">
+                <img src="images/5.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Ride It</h2>
+                    <h5>Jay Sean</h5>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
