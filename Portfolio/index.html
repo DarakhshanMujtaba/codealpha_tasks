@@ -1,492 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Darakhshan Mujtaba</title>
-        <!-- Favicon -->
-        <link rel="icon" href="favicon.png">
 
-        <!--- Custom CSS -->
-        <link rel="stylesheet" href="CSS/style.css">
-        <link rel="stylesheet" href="CSS/responsive.css">
-        <!--Bootstrap 5 CDN links -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-            crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darakhshan Mujtaba</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png">
 
-    </head>
-    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
-        <!-- Navbar Section-->
-        <header class="header_wrapper">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <div class="container-fluid">
-                    <a class="navbar-brand logo" href="#">Darakhshan's
-                        <span>Portfolio</span>
-                    </a>
+    <!--- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <!--Bootstrap 5 CDN links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-                    <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <!-- <span class="navbar-toggler-icon"></span> -->
-                        <i class="fas fa-bars navbar-toggler-icon"></i>
-                    </button>
+</head>
 
-                    <div class="collapse navbar-collapse justify-content-end"
-                        id="navbarNav">
-                        <ul class="navbar-nav">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+    <!-- Navbar Section-->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">Darakhshan's
+                    <span>Portfolio</span>
+                </a>
 
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
-                                    href="#home">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-bars navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact
+                                Me</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HEADER SECTION -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12   order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hello</h2>
+                    <h1 class="text-uppercase">
+                        I am Darakhshan Mujtaba
+                    </h1>
+                    <h3 id="typing-text" class="text-uppercase"></h3>
+                    <div class="mt-5">
+                        <a class="main-btn primary-btn" href="https://www.linkedin.com/in/darakhshan-mujtaba-580183271/"
+                            target="_blank">Contact Me on LinkedIn</a>
+                        <a class="main-btn secondary-btn ms-4" id="getCvBtn" href="#">Download My Resume</a>
+                    </div>
+
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12  order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img src="images/main.png" alt="Profile Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img decoding="async" src="images/about.png" class="img-fluid rounded-3" alt="About Us">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                        <span class="subtitle">My About Details</span>
+                        <h2>About Me</h2>
+                        <p> I'm a passionate and
+                            dedicated Frontend Developer. I specialize in
+                            building intuitive, responsive websites using
+                            technologies such as HTML, CSS, JavaScript, and
+                            React.js. Alongside my expertise in frontend
+                            development, I also have a solid background in
+                            graphic designing, C++ programming, and Python
+                            programming.I love crafting visually striking
+                            and efficient digital experiences that leave a
+                            lasting impact. Let’s collaborate to turn your
+                            ideas into reality!</p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                                    aria-selected="true">Main
+                                    Skills</button>
                             </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-Award-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-Award" type="button" role="tab" aria-controls="pills-Award"
+                                    aria-selected="false">Awards</button>
                             </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                    href="#services">Services</a>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-experiance" type="button" role="tab"
+                                    aria-controls="pills-experiance" aria-selected="false">Experience</button>
                             </li>
-                            
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact
-                                    Me</a>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="false">Education</button>
                             </li>
-
                         </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                                aria-labelledby="pills-skill-tab">
+                                <div class="single-progress">
+                                    <h6>Front-end Development</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 95%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">95%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>React.js Development</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">25%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Graphic Designing</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">60%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>C++ Programming</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">80%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>Python Programming</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 35%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">35%</span>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-Award" role="tabpanel"
+                                aria-labelledby="pills-Award-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">Awwwards.com
+                                            <span>- Winner</span></a> 2019 -
+                                        2020
+                                    </li>
+                                    <li><a href="#">CSS Design Awards
+                                            <span>- Winner</span></a> 2017 -
+                                        2018
+                                    </li>
+                                    <li><a href="#">Design nominees
+                                            <span>- site of the
+                                                day</span></a> 2013- 2014
+                                    </li>
+                                    <li><a href="#">Awwwards.com
+                                            <span>- Winner</span></a> 2019 -
+                                        2020
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="pills-experiance" role="tabpanel"
+                                aria-labelledby="pills-experiance-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">Sr. Front-end
+                                            Engineer<span> -
+                                                Google</span></a> 2018 -
+                                        Current
+                                    </li>
+                                    <li><a href="#">Front-end
+                                            Engineer<span> -
+                                                Microsoft</span></a> 2017 -
+                                        2018
+                                    </li>
+                                    <li><a href="#">Software
+                                            Engineer<span> - Alibaba
+                                            </span></a> 2013- 2014</li>
+                                    <li><a href="#">Software
+                                            Engineer<span> - Alibaba
+                                            </span></a> 2013- 2014</li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">BSc In CSE<span>
+                                                - ABC University, Los
+                                                Angeles, CA</span></a> 2010
+                                    </li>
+                                    <li><a href="#">Diploma in
+                                            Computer Science<span> - Gamma
+                                                Technical
+                                                Institute</span></a> 2009
+                                    </li>
+                                    <li><a href="#">Graphic
+                                            Designer<span> - ABC Institute,
+                                                Los Angeles, CA</span></a>
+                                        2007
+                                    </li>
+                                    <li><a href="#">Graphic
+                                            Designer<span> - ABC Institute,
+                                                Los Angeles, CA</span></a>
+                                        2007
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </header>
 
-        <!-- HEADER SECTION -->
-        <section id="home" class="banner_wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12   order-lg-1 order-2 banner-content">
-                        <h2 class="text-uppercase position-relative">Hello</h2>
-                        <h1 class="text-uppercase">
-                            I am Darakhshan Mujtaba
-                        </h1>
-                        <h3 id="typing-text" class="text-uppercase"></h3>
-                        <div class="mt-5">
-                            <a class="main-btn primary-btn" href="https://www.linkedin.com/in/darakhshan-mujtaba-580183271/" target="_blank">Contact Me on LinkedIn</a>
-                            <a class="main-btn secondary-btn ms-4" id="getCvBtn" href="#">Download My Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-cm-12 text-center mb-4">
+                    <span class="subtitle">What I can do for you</span>
+                    <h2>My Awesome Services</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit.<br class="d-none d-md-block">
+                        Ad eaque provident vero, officia debitis</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/services-img/s1.png" alt>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Blanditiis, ut!</p>
                         </div>
-                        
                     </div>
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12  order-lg-2 order-1">
-                        <div class="top-right-img">
-                            <img src="images/main.png" alt="Profile Image">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/services-img/s2.png" alt>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Blanditiis, ut!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/services-img/s3.png" alt>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Blanditiis, ut!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/services-img/s4.png" alt>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Blanditiis, ut!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/services-img/s5.png" alt>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Blanditiis, ut!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/services-img/s6.png" alt>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Blanditiis, ut!</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- ABOUT SECTION -->
-        <section id="about" class="about_wrapper">
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-5 mb-4 mb-lg-0">
-                        <img decoding="async" src="images/about.png"
-                            class="img-fluid rounded-3" alt="About Us">
-                    </div>
-                    <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
-                        <div class="my-3 my-lg-0">
-                            <span class="subtitle">My About Details</span>
-                            <h2>About Me</h2>
-                            <p> I'm a passionate and
-                                dedicated Frontend Developer. I specialize in
-                                building intuitive, responsive websites using
-                                technologies such as HTML, CSS, JavaScript, and
-                                React.js. Alongside my expertise in frontend
-                                development, I also have a solid background in
-                                graphic designing, C++ programming, and Python
-                                programming.I love crafting visually striking
-                                and efficient digital experiences that leave a
-                                lasting impact. Let’s collaborate to turn your
-                                ideas into reality!</p>
-                        </div>
-                        <div class="pt-4">
-                            <ul
-                                class="nav nav-pills justify-content-center justify-content-lg-between mb-3"
-                                id="pills-tab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active"
-                                        id="pills-skill-tab"
-                                        data-bs-toggle="pill"
-                                        data-bs-target="#pills-skill"
-                                        type="button" role="tab"
-                                        aria-controls="pills-skill"
-                                        aria-selected="true">Main
-                                        Skills</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link"
-                                        id="pills-Award-tab"
-                                        data-bs-toggle="pill"
-                                        data-bs-target="#pills-Award"
-                                        type="button" role="tab"
-                                        aria-controls="pills-Award"
-                                        aria-selected="false">Awards</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link"
-                                        id="pills-experiance-tab"
-                                        data-bs-toggle="pill"
-                                        data-bs-target="#pills-experiance"
-                                        type="button" role="tab"
-                                        aria-controls="pills-experiance"
-                                        aria-selected="false">Experience</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link"
-                                        id="pills-education-tab"
-                                        data-bs-toggle="pill"
-                                        data-bs-target="#pills-education"
-                                        type="button" role="tab"
-                                        aria-controls="pills-education"
-                                        aria-selected="false">Education</button>
-                                </li>
-                            </ul>
-                            <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade show active"
-                                    id="pills-skill" role="tabpanel"
-                                    aria-labelledby="pills-skill-tab">
-                                    <div class="single-progress">
-                                        <h6>Front-end Development</h6>
-                                        <div class="progress">
-                                            <div class="progress-bar"
-                                                role="progressbar"
-                                                style="width: 95%"
-                                                aria-valuenow="0"
-                                                aria-valuemin="0"
-                                                aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                        <span class="label">95%</span>
-                                    </div>
-                                    <div class="single-progress">
-                                        <h6>React.js Development</h6>
-                                        <div class="progress">
-                                            <div class="progress-bar"
-                                                role="progressbar"
-                                                style="width: 25%"
-                                                aria-valuenow="0"
-                                                aria-valuemin="0"
-                                                aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                        <span class="label">25%</span>
-                                    </div>
+    </section>
 
-                                    <div class="single-progress">
-                                        <h6>Graphic Designing</h6>
-                                        <div class="progress">
-                                            <div class="progress-bar"
-                                                role="progressbar"
-                                                style="width: 60%"
-                                                aria-valuenow="0"
-                                                aria-valuemin="0"
-                                                aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                        <span class="label">60%</span>
-                                    </div>
-                                    <div class="single-progress">
-                                        <h6>C++ Programming</h6>
-                                        <div class="progress">
-                                            <div class="progress-bar"
-                                                role="progressbar"
-                                                style="width: 80%"
-                                                aria-valuenow="0"
-                                                aria-valuemin="0"
-                                                aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                        <span class="label">80%</span>
-                                    </div>
-                                    <div class="single-progress">
-                                        <h6>Python Programming</h6>
-                                        <div class="progress">
-                                            <div class="progress-bar"
-                                                role="progressbar"
-                                                style="width: 35%"
-                                                aria-valuenow="0"
-                                                aria-valuemin="0"
-                                                aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                        <span class="label">35%</span>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="pills-Award"
-                                    role="tabpanel"
-                                    aria-labelledby="pills-Award-tab">
-                                    <ul class="text-start ps-0">
-                                        <li><a href="#">Awwwards.com
-                                                <span>- Winner</span></a> 2019 -
-                                            2020
-                                        </li>
-                                        <li><a href="#">CSS Design Awards
-                                                <span>- Winner</span></a> 2017 -
-                                            2018
-                                        </li>
-                                        <li><a href="#">Design nominees
-                                                <span>- site of the
-                                                    day</span></a> 2013- 2014
-                                        </li>
-                                        <li><a href="#">Awwwards.com
-                                                <span>- Winner</span></a> 2019 -
-                                            2020
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tab-pane fade" id="pills-experiance"
-                                    role="tabpanel"
-                                    aria-labelledby="pills-experiance-tab">
-                                    <ul class="text-start ps-0">
-                                        <li><a href="#">Sr. Front-end
-                                                Engineer<span> -
-                                                    Google</span></a> 2018 -
-                                            Current
-                                        </li>
-                                        <li><a href="#">Front-end
-                                                Engineer<span> -
-                                                    Microsoft</span></a> 2017 -
-                                            2018
-                                        </li>
-                                        <li><a href="#">Software
-                                                Engineer<span> - Alibaba
-                                                </span></a> 2013- 2014</li>
-                                        <li><a href="#">Software
-                                                Engineer<span> - Alibaba
-                                                </span></a> 2013- 2014</li>
-                                    </ul>
-                                </div>
-                                <div class="tab-pane fade" id="pills-education"
-                                    role="tabpanel"
-                                    aria-labelledby="pills-education-tab">
-                                    <ul class="text-start ps-0">
-                                        <li><a href="#">BSc In CSE<span>
-                                                    - ABC University, Los
-                                                    Angeles, CA</span></a> 2010
-                                        </li>
-                                        <li><a href="#">Diploma in
-                                                Computer Science<span> - Gamma
-                                                    Technical
-                                                    Institute</span></a> 2009
-                                        </li>
-                                        <li><a href="#">Graphic
-                                                Designer<span> - ABC Institute,
-                                                    Los Angeles, CA</span></a>
-                                            2007
-                                        </li>
-                                        <li><a href="#">Graphic
-                                                Designer<span> - ABC Institute,
-                                                    Los Angeles, CA</span></a>
-                                            2007
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-center text-center">
+                    <h2 class="mb-4"> Contact Me Through. </h2>
 
-                </div>
-            </div>
-        </section>
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3 col-lg-4">Call:</label>
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="javascript:void(0)">+92 111 1010101</a>
+                        </div>
+                        <label class="col-sm-3 col-lg-4"> Email:</label>
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="mailto:example@gmail.com">darakhshan.mujtaba6@gmail.com</a>
 
-        <!-- SERVICES SECTION -->
-        <section id="services" class="services_wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-cm-12 text-center mb-4">
-                        <span class="subtitle">What I can do for you</span>
-                        <h2>My Awesome Services</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit.<br class="d-none d-md-block">
-                            Ad eaque provident vero, officia debitis</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-body text-md-start text-center">
-                                <img src="./images/services-img/s1.png" alt>
-                                <h3>Web Development</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Blanditiis, ut!</p>
-                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-body text-md-start text-center">
-                                <img src="./images/services-img/s2.png" alt>
-                                <h3>Web Development</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Blanditiis, ut!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-body text-md-start text-center">
-                                <img src="./images/services-img/s3.png" alt>
-                                <h3>Web Development</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Blanditiis, ut!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-body text-md-start text-center">
-                                <img src="./images/services-img/s4.png" alt>
-                                <h3>Web Development</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Blanditiis, ut!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-body text-md-start text-center">
-                                <img src="./images/services-img/s5.png" alt>
-                                <h3>Web Development</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Blanditiis, ut!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-body text-md-start text-center">
-                                <img src="./images/services-img/s6.png" alt>
-                                <h3>Web Development</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Blanditiis, ut!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 mb-4">
 
-        </section>
-
-        <!-- CONTACT SECTION -->
-        <section id="contact" class="contact_wrapper">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div
-                        class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-center text-center">
-                        <h2> Contact Me Through. </h2>
-                       
-                        <div class="row call_details mb-4">
-                            <label class="col-sm-3 col-lg-4">Call:</label>
-                            <div
-                                class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
-                                <a href="javascript:void(0)">+92 111 1010101</a>
-                            </div>
-                            <label class="col-sm-3 col-lg-4"> Email:</label>
-                            <div
-                                class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
-                                <a
-                                    href="mailto:example@gmail.com">darakhshan.mujtaba6@gmail.com</a>
-
-                            </div>
-                        </div>
-                        <form>
-                            <div class="mb-4">
-                                <input type="text" class="form-control"
-                                    placeholder="Enter your Name"
+                                <input type="text" class="form-control" placeholder="Enter your Name"
                                     autocomplete="off">
                             </div>
-                            <div class="mb-4">
+                            <div class="col-lg-6 mb-4">
                                 <input type="number" class="form-control"
-                                    placeholder="Enter your Phone number"
-                                    autocomplete="off">
+                                placeholder="Enter your Phone number"
+                                autocomplete="off">
                             </div>
-                            <div class="mb-4">
+                            <div class="col-lg-12 mb-4">
                                 <input type="email" class="form-control"
-                                    placeholder="Enter your Email"
-                                    autocomplete="off">
+                                placeholder="Enter your Email"
+                                autocomplete="off">
                             </div>
-                            <div class="mb-4">
+                            <div class="col-lg-12 mb-4">
                                 <textarea cols="40" rows="4"
                                     class="form-control" id="message"
                                     placeholder="Write a message"
                                     autocomplete="off">
                                 </textarea>
                             </div>
-                            <button type="submit"
-                                class="main-btn">Submit</button>
-                        </form>
-                    </div>
-
+                            <div class="col-lg-12">
+                                <button type="submit"
+                                class="main-btn">Send Message</button>
+                            </div>
+                    </form>
                 </div>
+
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- FOOTER SECTION -->
-        <section id="contact" class=" footer_wrapper mt-3 mt-md-0">
-            <div class="footer-container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-4 col-md-6 text-center text-md-start">
-                        <div class="footer-logo mb-3 mb-md-0">
-                            <h2>Darakhshan's</h2><span>Portfolio</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center text-md-end">
-                        <div class="footer-social">
-                            <h3>Need Help?</h3>
-                            <p>Follow Me On:</p>
-                            <ul class="social-links">
-                                <li>
-                                    <a href="https://www.linkedin.com/in/darakhshan-mujtaba-580183271/" target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/YourGithubProfile" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                </div>
+    <!-- FOOTER SECTION -->
+    <section id="contact" class=" footer_wrapper mt-3 mt-md-0">
         
-                <div class="footer-rights text-center">
-                    <p>www.darakhshansportfolio.com || All Rights Reserved <i class="fas fa-copyright"> 2024</i></p>
+        <div class="footer-container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <h2>Darakhshan's</h2><span>Portfolio</span>
+                    </div>
                 </div>
+                <div class="col-lg-4 col-md-6 text-center text-md-end">
+                    <div class="footer-social">
+                        <h3>Need Help?</h3>
+                        <p>Follow Me On:</p>
+                        <ul class="social-links">
+                            <li>
+                                <a href="https://www.linkedin.com/in/darakhshan-mujtaba-580183271/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/YourGithubProfile" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
-        </section>
-        
-        
 
-        <Script src="app.js"></Script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-            crossorigin="anonymous"></script>
+            <div class="footer-rights text-center">
+                <p>www.darakhshansportfolio.com || All Rights Reserved <i class="fas fa-copyright"> 2024</i></p>
+            </div>
+        </div>
+    </section>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-            crossorigin="anonymous"></script>
 
-    </body>
+
+    <Script src="app.js"></Script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>
